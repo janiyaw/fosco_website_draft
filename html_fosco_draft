@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="HTML landing page" />
+    <meta name="keywords" content="landing page,page,landing,website,home" />
+    <meta name="robots" content="nofollow" />
+    <title> </title>
+    <link href="https://fonts.googleapis.com/css2?family=Amethysta&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <style>
+      #columnone {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1550078219595-PBR89T1YJFV1A42O5BRL/ke17ZwdGBToddI8pDm48kHurx3fBdIeZgkINxEYikuJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hReLB75oIvKxcDxwlnLXaYxx2rsRFRO1wRK_rkZV1RAl5oC2R-qVYkbBJkzr4SD3g/_MG_14833.jpg?format=2500w");
+        background-size: cover;
+      }
+      #columntwo {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1549474998646-I9CWFW16KW2ZP5QZ8QZZ/ke17ZwdGBToddI8pDm48kMYYAcD3NRyTLAL92D1UBrt7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTm57tI7PPreCkpahY6egfb74spxo6JCqeN5Vvoa50SioRwB-dUGsSquCnVTFQcaRg/Screenshot+2019-01-23+at+10.08.21.png?format=2500w");
+        background-size: cover;
+      }
+      #columnthree {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1548238131452-FQTPRTAG84TWQ5TBG4DQ/ke17ZwdGBToddI8pDm48kDDelDg2Y4f-ByK0ugkSx717gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQ37sMBbO86qrMGGnSCifnKHUpIP2U9S9GYEYoNx9i0AZtJ3qR9G2BYeA0wOAaeYNg/Screenshot+2019-01-23+at+10.08.14.png?format=2500w");
+        background-size: cover;
+      }
+      #columnfour {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1550253341136-N8WKLJ4ZQGGJHXK3CS9T/ke17ZwdGBToddI8pDm48kCDIU9uWM198iaU2vIWjt5d7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0o8OMvY5tuV_wqZQCqqStn6zymcMThP1P9c2CORQ6j9mejKBv2lifccFQcUDESzccw/_MG_1502.jpg?format=2500w");
+        background-size: cover;
+      }
+      #columnfive {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1549475378253-9AMDJSYXZF3HAVQEUIVV/ke17ZwdGBToddI8pDm48kFvsyJ0Kmni3Em4u-CHCbl97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0m_nwPNs2kYVhoOQZiVFxSYpWTZWrU8D9qSouKWm-gd6YaKbvV_fc7vVcviTKKtgcA/_MG_14372.jpg?format=2500w");
+        background-size: cover;
+      }
+      #columnsix {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1549474945920-VHL3H4XMS2ZHNEW5Y4RJ/ke17ZwdGBToddI8pDm48kIlMyni6A5KShTnTWo0f4ql7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UX1waO_SoGnkHF1kjaxGhUgrgTtd1Y-LWbn7dvK6f36V3WUfc_ZsVm9Mi1E6FasEnQ/Screenshot+2019-01-23+at+10.08.29.png?format=2500w");
+        background-size: cover;
+      }
+      #columnseven {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1548238122863-V7QFBEI9Y7WTR5NPAV91/ke17ZwdGBToddI8pDm48kOAGJA3FqB24VQOUgGZEaHJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ub2xa9zETtkbAdbjSL4L7Xk8ucROqK8XSaLAxVHZWWfxm4bjm9DAHF2kOsIZRJKXnA/Screenshot+2019-01-23+at+10.08.05.png?format=2500w");
+        background-size: cover;
+      }
+      #columneight {
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1550247923117-JL60MWTCBLRJCASD0DJN/ke17ZwdGBToddI8pDm48kFZ8ULPFQY4XAKyjLdBJA3F7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lqfkVpRp1g_2L-WsTQRP4I8unv85Przn96JRiORvHMnoaHTirJX-ZcwT3sOuBvq5w/_MG_14982.jpg?format=2500w");
+        background-size: cover;
+      }
+      .column {
+        float: left;
+        width: 50%;
+        color: white;
+        height: 900px;
+        width: 50%;
+text-align: center;
+      }
+      .columncopy {
+margin-top: 400px;
+      }
+      p {
+        font-family: Quicksand, sans-serif;
+      }
+      h1 {
+        font-family: Amethysta, sans-serif;
+      }
+      .hero {
+        text-align: center;
+        height: 1050px;
+        color: white;
+        background-image: url("https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1550234200035-I0RRD42T4R6H4XO7JZXQ/ke17ZwdGBToddI8pDm48kEQlQCkXtWVeWnnwRQehYnd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0h8vX1l9k24HMAg-S2AFiem2KWmFPEhSHk5-oMjPHK2iTdkS4NiOng0hPWbyhNvlhQ/_MG_1194.jpg?format=2500w");
+      background-size: cover;
+      }
+      nav {
+        float: right;
+       
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-family: Quicksand, sans-serif;
+        font-size: 15px;
+        padding-top: 40px;
+        text-align: right;
+      }
+      li {
+       display: inline;
+       margin-right: 20px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        color: #D8D8D8;
+      }
+      #logo {
+        float: left;
+        padding-left: 240px;
+        padding-top: 30px;
+      }
+      body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #herocopy {
+        margin-top: 450px;
+      }
+      #bottomcopy {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <!--FOS & CO LOGO-->
+      <a href="">
+    <img src="https://static1.squarespace.com/static/5b33a591b40b9df61d7431d6/t/5c48391f4fa51a8e6eb92e23/1572456974451/?format=1500w" id="logo" width="215";
+      <nav>
+        <ul>
+          <li><a href="https://www.fosandco.com/about" target="_blank" title="About page">ABOUT</a></li>
+          <li><a href="https://www.fosandco.com/about/#anchor-link-process" target="_blank" title="Process page">PROCESS</a></li>
+          <li><a href="https://www.fosandco.com/projects" target="_blank" title="Projects page">PROJECTS</a></li>
+          <li><a href="https://www.fosandco.com/contact" target="_blank" title="Contact page">CONTACT</a></li>
+        </ul>
+      </nav>
+      <h1 id="herocopy">We’ll help your business grow through creative <br />
+         direction and strategic branding.
+        </h1>
+      </div>
+    </div>
+    <!--ROW 1-->
+    <div class="rowone">
+      <!--ROW 1 - COLUMN 1-->
+      <div class="column" id="columnone">
+      </div>
+      <!--ROW 1 - COLUMN 2-->
+      <div class="column" id="columntwo">
+        <!--COLUMN TWO'S COPY-->
+        <div class="columncopy">
+      <p>SOLUTIONS</p>
+      <h1>Design through critical thinking <br />
+        and problem solving.</h1>
+      </div>
+        </div>
+    <!--ROW 2-->
+    <div class="rowtwo">
+      <!--ROW 2 - COLUMN THREE-->
+      <div class="column" id="columnthree">
+        <!--COLUMN THREE'S COPY-->
+        <div class="columncopy">
+        <p>NARRATIVE</p>
+        <h1>Thoughtfully crafting brands <br />
+          that tell meaningful stories.</h1>
+        </div>
+      </div>
+      <!--ROW 2 - COLUMN FOUR-->
+      <div class="column" id="columnfour"></div>
+    </div>
+    <!--ROW THREE-->
+    <div class="rowthree">
+      <!--ROW 3 - COLUMN 5-->
+    <div class="column" id="columnfive">
+  </div>
+  <!--ROW 3 - COLUMN 6-->
+  <div class="column" id="columnsix">
+    <!--COLUMN SIX'S COPY-->
+    <div class="columncopy">
+      <p>BESPOKE</p>
+      <h1>Personalising our design process <br />
+        for each of our clients.
+        </h1>
+    </div>
+  </div>
+     <!--ROW FOUR-->
+     <div class="rowfour">
+       <!--ROW 4 - COLUMN 7-->
+      <div class="column" id="columnseven">
+        <div class="columncopy">
+          <p>PLANET</p>
+          <h1>Focusing on delivering <br /> 
+            environmentally-friendly <br />
+            solutions.
+            </h1>
+        </div>
+    </div>
+    <!--ROW 4 - COLUMN 8-->
+    <div class="column" id="columneight">
+  </div>
+</div>
+<h3 id="bottomcopy">When it comes to growth, you’re <br />
+  speaking with the right people.</h3>
+  <p>FOLLOW US ON INSTAGRAM:<a href="https://www.instagram.com/fosandco/">@FOSANDCO</a></p>
+<table>
+  <tr>
+    <td><img src="https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1575048859661-87MJZ5BOOLGF3R3V2AKR/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg?format=500w"></td>
+    <td><img src="https://images.squarespace-cdn.com/content/v1/5b33a591b40b9df61d7431d6/1573663989690-HLKFBIG17B51I3M1J3V8/ke17ZwdGBToddI8pDm48kEpVg-ILAPna1wRh-xAJ9fRZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpwEv36x-EUL2-BSQ5feDhwGCbXuJBFqZ-erYzVouT8yOb9TwqchglLQOCYTRn7ZGxI/image-asset.jpeg?format=500w"></td>
+    <td><img src=""></td>
+    <td><img src=""></td>
+    <td><img src=""></td>
+    <td><img src=""></td>
+  </tr>
+</table>  
+</body>
+</html>
